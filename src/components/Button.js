@@ -12,7 +12,7 @@ function MyButton() {
     <img src="https://www.marthastewart.com/thmb/7UfJw45VxtL6bGM13-3G-6yZVjs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/wedding-gift-tables-nataly-j-photography-02-0518-2000-df06bad0606b4846a5009b97651e69fb.jpg" alt="Card Image"/>
     </div>
     <div class="text-container">
-      <p class="white-text">Your Text Here</p>
+      <p class="white-text">Lorem ipsum dolor sit amet, consectetur</p>
     </div>
   </div>
 
