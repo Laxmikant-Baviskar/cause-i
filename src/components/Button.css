@@ -62,7 +62,11 @@ border-image-source: linear-gradient(180deg, #EC1380 0%, #FAAE2A 100%);
   }
 
 
+<<<<<<< HEAD
   /* ==============card csss ========== */
+=======
+/* ==============card csss ========== */
+>>>>>>> 72e55edb09aa0c1a964b2792264ad6da81630bc6
 
 
 .image-card {
@@ -114,4 +118,8 @@ border-image-source: linear-gradient(180deg, #EC1380 0%, #FAAE2A 100%);
     box-shadow: 0px -40px 30px 0px rgba(0, 0, 0, 0.8) inset;
   }
   
+<<<<<<< HEAD
   /* ============== card css end =============== */
+=======
+  /* ============== card css end =============== */
+>>>>>>> 72e55edb09aa0c1a964b2792264ad6da81630bc6
