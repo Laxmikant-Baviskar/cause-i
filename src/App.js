@@ -1,33 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-// import Button from './components/Button';
+// import logo from './logo.svg';
+// import './App.css';
+// // import Button from './components/Button';
 
-import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
-// import TypingAnimation from './components/OtherComponent/TypingAnimation';
-// import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
+// import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+// // import TypingAnimation from './components/OtherComponent/TypingAnimation';
+// // import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
 
-// import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
+// // import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
 
-import LandingPage from './components/landing-page/LandingPage';
+// import LandingPage from './components/landing-page/LandingPage';
+// import LoginPage from './components/Login-Page/LoginPage';
 
-function App() {
-  return (
-    <div className="App">
-      {/* how are you */}
-      {/* <TypingAnimation1 text="Data. Emmersion. Action." /> */}
-      {/* <Button/> */}
-      
-      <div className="type-anim container mt-5">
-      {/* <TypingAnimation1 text="Data. Emmersion. Action." /> */}
-      <LandingPage/>
-      </div>
+// function App() {
+//   return (
+//     <div className="App">
 
-    </div>
-  );
-}
+//       <div className="type-anim">
+//       {/* <TypingAnimation1 text="Data. Emmersion. Action." /> */}
+//       <LandingPage/>
+//       </div>
 
-export default App;
+//       <LoginPage/>
+//     </div>
+//   );
+// }
 
+// export default App;
+
+// =============================================
 
 // import React from 'react';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -39,7 +39,7 @@ export default App;
 //     <Router>
 //       <Switch>
 //         <Route path="/" exact component={LandingPage} />
-//         <Route path="/other" component={OtherComponent} />
+//         <Route path="/other" component={LoginPage} />
 //         {/* other routes as needed */}
 //       </Switch>
 //     </Router>
@@ -47,3 +47,36 @@ export default App;
 // }
 
 // export default App;
+
+
+// =============================================
+
+
+import logo from './logo.svg';
+import './App.css';
+// import Button from './components/Button';
+
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
+// import TypingAnimation from './components/OtherComponent/TypingAnimation';
+// import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
+
+// import TypingAnimation1 from './components/bootsrtap-comp/TypingAnimation-1';
+
+import LandingPage from './components/landing-page/LandingPage';
+import LoginPage from './components/Login-Page/LoginPage';
+
+function App() {
+  return (
+    <div className="App">
+
+      <div className="type-anim">
+      {/* <TypingAnimation1 text="Data. Emmersion. Action." /> */}
+      {/* <LandingPage/> */}
+      </div>
+
+      <LoginPage/>
+    </div>
+  );
+}
+
+export default App;

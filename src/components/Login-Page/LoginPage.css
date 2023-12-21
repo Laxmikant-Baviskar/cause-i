@@ -1,0 +1,174 @@
+/* Global styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .left {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(./image\ 15.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  /* .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  
+  .overlay h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Right side styles */
+  .right {
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    background-image: url(./animation-1\ \(1\)-1.png);
+  }
+  
+  .right img{
+    width: 150px;
+    padding-bottom: 5%;
+  }
+
+  .form-container {
+    width: 70%;
+    max-width: 350px;
+    margin: 0 auto;
+    margin: 20%;
+    margin-top: 10%;
+
+  }
+  
+  .form-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #e4e5eb;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom:5%;
+    /* border: 1px solid #ccc; */
+    border-radius: 3px;
+    background-color: #000;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #e4e5eb;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #000;
+  }
+  
+  .forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .create-account {
+    text-align: center;
+    margin-top: 20px;
+    color: #FF9653;
+  }
+  
+  .create-account a{
+    color: #dddddd;
+  }
+  
+
+  /* Add new styles for OTP input */
+.otp-input-group {
+    margin-bottom: 20px;
+    margin-left: 35px;
+  }
+  
+  .otp-inputs {
+    display: flex;
+  }
+  
+  .otp-inputs input {
+    width: 60px;
+    padding: 10px;
+    margin-right: 10px;
+
+    /* border: 1px solid #ccc; */
+    border-radius: 3px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #000;
+    color:#FF9653;
+    align-items: center;
+  }

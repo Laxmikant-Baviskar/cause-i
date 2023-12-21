@@ -1,0 +1,48 @@
+/* .typing-animation {
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    overflow: hidden; 
+  }
+ 
+  .cursor {
+    display: inline-block;
+    width: 2.5px;
+    height: 2em;
+    background-color: currentColor;
+    margin-left: 2px;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+   */
+
+
+   .typing-animation {
+    font-family: 'Poppins', sans-serif; /* Change to Poppins */
+    white-space: pre;
+    overflow: hidden;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 4.5px;
+    height: 2em;
+    border-radius: 10px;
+    /* background-color: currentColor; */
+    background: linear-gradient(180deg, #EC1380 0%, #FAAE2A 31.25%, #90D1BD 53.12%, #9747FF 75.52%, #F6ED59 100%);
+
+    margin-left: 5px;
+    vertical-align: middle;
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 20;
+    }
+  }
+  
